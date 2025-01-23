@@ -1,0 +1,9 @@
+type = panorama
+
+panorama-meta {
+  name = pls_survived
+  speed = 0.8
+  fov = 87.0
+  angle = 33.0
+  start_rotation = 0
+}

@@ -1,0 +1,49 @@
+
+[enchment]
+	#是否启用赐福之源附魔。
+	"Source of Blessing" = true
+	#是否启用诅咒之源附魔。
+	"Source of Curses" = true
+	#0~1
+	"Source of Blessing Probability" = 0.5
+	#0~1
+	"Source of Curses Probability" = 0.5
+
+[potions]
+	#是否启用超级腐蚀(可腐蚀无法破坏装备)
+	"Supre Corrosion" = false
+	#每级近战领域buff增加的范围(范围内造成的伤害无效)，设为0以禁用
+	"Melee Domain Distance" = 0.5
+	#每级闪避提供多少闪避概率。(1~100)
+	"Evasion Probability" = 2.0
+	#每级护甲碎裂减少多少护甲值。
+	"Armor Broken" = 4.0
+	#每级护甲碎裂减少多少护甲韧性。
+	"Armor Toughness Broken" = 1.0
+	#每级巨力增加百分之多少的伤害。
+	"Huge Force Damage" = 0.25
+	#伤害变为：(1-x)^恐惧效果等级。
+	"Fear Reduce damage" = 0.2
+	#每级脆弱增加多少被造成的伤害。
+	"Fragile Damage" = 0.25
+	#每级吸血增加百分之多少的吸血量。
+	"Leeching Health" = 0.1
+	#每级精准增加的伤害。
+	"Accurate Damage" = 0.25
+	#每级失准减少的伤害。
+	"Misalignment Reduce Damage" = 0.2
+	#每级弱效回复减少的回复量。
+	"Weaking Recovery Reduce Heal Amount" = 0.2
+
+[Spwan]
+	#生成的生物带有位格效果的最大等级，设为0以禁用。
+	"Max Rank Level" = 0.0
+	"Rank Spwan Possibility-Level1" = 10.0
+	"Rank Spwan Possibility-Level2" = 5.0
+	"Rank Spwan Possibility-Level3" = 1.0
+	"Rank Spwan Possibility-Level4" = 0.05
+	"Rank Spwan Possibility-Level5" = 0.005
+	"Rank Spwan Possibility-Level6" = 0.0
+	#最大位格权重，每个有位格效果的生物占3^效果等级的权重。
+	"Max Rank Exist" = 300.0
+
